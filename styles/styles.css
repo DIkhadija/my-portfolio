@@ -185,7 +185,7 @@ section {
   transition: all 0.4s ease-in-out;
 
 }
-.header-content .left-header .image img: {
+.header-content .left-header .image img {
   filter: grayscale(0);
 }
 .header-content .right-header {
@@ -962,3 +962,19 @@ section {
 }
 
 /*# sourceMappingURL=styles.css.map */
+.btn-submit{
+  background-color: var(--color-secondary);
+  padding:.6em 4em;
+  border-radius: 25px;
+  margin: auto;
+  border:none;
+  color:var(--color-grey-6);
+  display: block;
+  font-size:1em;
+  font-family: inherit;
+  transition: .4s all;
+}
+.btn-submit:hover{
+ background-color: var(--color-primary);
+ color:var(--color-grey-3);
+}
